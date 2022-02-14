@@ -1,6 +1,6 @@
 import React from 'react'
 import pic from '../assets/me.jpg'
-import { Row, Col, Container } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 
 function About () {
   return (
