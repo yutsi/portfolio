@@ -5,7 +5,7 @@ import NavTabs from './routes/NavTabs'
 import About from './routes/About'
 import Projects from './routes/Projects'
 import { Container, Row, Col } from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import './custom.scss'
 
 function App () {
   return (

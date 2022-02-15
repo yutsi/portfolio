@@ -4,8 +4,8 @@ import { useLocation, Link } from 'react-router-dom'
 
 function NavTabs () {
   return (
-    <Navbar>
-      <Nav variant='tabs' activeKey={useLocation().pathname}>
+    <Navbar className='navbar-dark'>
+      <Nav variant='tabs' activeKey={useLocation().pathname} className='fs-5'>
         <Nav.Item>
           <Nav.Link as={Link} to='/'>Projects</Nav.Link>
         </Nav.Item>

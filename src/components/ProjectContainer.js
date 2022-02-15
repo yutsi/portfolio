@@ -13,8 +13,8 @@ const ProjectContainer = (project) => {
     <Col>
       <Card className='project-card'>
         <Card.Body>
-          <Card.Title>{title}</Card.Title>
-          <Card.Subtitle className='mb-2 text-muted'>Stack: {stack}</Card.Subtitle>
+          <Card.Title className='fs-3'>{title}</Card.Title>
+          <Card.Subtitle><span className='fw-normal'>Stack:</span> {stack}</Card.Subtitle>
         </Card.Body>
         <ListGroup className='list-group-flush'>
           {lines

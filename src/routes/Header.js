@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap'
 
 function Header () {
   return (
-    <Container>
+    <Container className='fs-5'>
       Wyatt Lucas / yutsi
     </Container>
   )
