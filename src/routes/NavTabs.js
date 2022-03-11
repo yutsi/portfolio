@@ -10,6 +10,9 @@ function NavTabs () {
           <Nav.Link as={Link} to='/'>Projects</Nav.Link>
         </Nav.Item>
         <Nav.Item>
+          <Nav.Link as={Link} to='/skills'>Skills</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
           <Nav.Link as={Link} to='/about'>About</Nav.Link>
         </Nav.Item>
         <Nav.Item>

@@ -6,7 +6,7 @@ function About () {
   return (
     <Row fluid='xs' md={1} lg={3}>
       <Col sm={3} md={2}>
-        <img src={pic} className='img-fluid float-sm-end' alt='Photo of me' />
+        <img src={pic} className='img-fluid float-sm-end' alt='me' />
       </Col>
       <Col md={6} className='float-end' xs lg='4'>
         <span className='about'>

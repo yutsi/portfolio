@@ -4,6 +4,7 @@ import Footer from './routes/Footer'
 import NavTabs from './routes/NavTabs'
 import About from './routes/About'
 import Projects from './routes/Projects'
+import Skills from './routes/Skills'
 import { Container, Row, Col } from 'react-bootstrap'
 import './custom.scss'
 
@@ -21,6 +22,7 @@ function App () {
       <Row />
       <Routes>
         <Route path='/' element={<Projects />} />
+        <Route path='/skills' element={<Skills />} />
         <Route path='/about' element={<About />} />
         <Route path='*' element={<Projects />} />
       </Routes>
