@@ -1,5 +1,5 @@
 import { React } from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row } from 'react-bootstrap'
 
 function Skills () {
   return (
@@ -13,6 +13,7 @@ function Skills () {
           <li><b>Back-end</b>: Node.js, Express, Git, Jest</li>
           <li><b>Databases</b>: SQL Server, MongoDB, GraphQL</li>
         </ul>
+        <span className='skills-text'>I develop web applications using React and Node.js with TypeScript/JavaScript. I have integrated front-end interfaces with REST APIs using SQL Server and MongoDB databases, as well as GraphQL APIs. For React apps, I have developed responsive mobile-friendly UIs using CSS and Bootstrap with a focus on accessibility. I also write component tests using Jest and React Testing Library to ensure a seamless user experience. Feel free to connect with me on <a href='https://www.linkedin.com/in/wyattlucas/' className='link-dark'>LinkedIn</a>.</span>
       </Row>
     </Container>
   )
