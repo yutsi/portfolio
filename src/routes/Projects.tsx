@@ -1,4 +1,3 @@
-import { React } from 'react'
 import { Container, Row } from 'react-bootstrap'
 import projectsList from '../content/projectsList'
 import ProjectContainer from '../components/ProjectContainer'
@@ -8,7 +7,7 @@ function Projects () {
     <Container>
       <Row xs={1} md={2} className='g-4'>
         {projectsList
-          .map(projects => <ProjectContainer key={projects.title} project={projects} />)}
+          .map(p => <ProjectContainer key={p.title} project={p} />)}
       </Row>
     </Container>
   )

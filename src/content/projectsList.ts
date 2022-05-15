@@ -1,4 +1,12 @@
-const projectsList = [
+export interface Project {
+  title: string
+  stack: string
+  url?: string
+  github: string
+  description: string
+}
+
+const projectsList: Project[] = [
   {
     title: 'aniComp',
     stack: 'React, GraphQL',

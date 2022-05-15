@@ -1,10 +1,9 @@
-import React from 'react'
 import pic from '../assets/me.jpg'
 import { Row, Col } from 'react-bootstrap'
 
 function About () {
   return (
-    <Row fluid='xs' md={1} lg={3}>
+    <Row md={1} lg={3}>
       <Col sm={3} md={2}>
         <img src={pic} className='img-fluid float-sm-end' alt='me' />
       </Col>
